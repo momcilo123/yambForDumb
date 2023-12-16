@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    background-image: url('img/seamless-dice-background-vector-21315117.jpg');
+    
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+    background-color: #fffdd0;
+   
+}
+
+table {
+    width: 150px;
+    height: 200px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+
+td {
+    width: 25px;
+    text-align: center;
+    border: 2px solid black;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+   
+
+}
+
+
+.dices {
+    margin-top: 250px;
+    width: 50px;
+    height: 260px;
+    
+}
+
+.dice {
+    width: 30px;
+    height: 30px;
+    border: 1.6px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+#button {
+    border-radius: 10px;
+    margin-top: 250px;
+    width: 120px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#scoreOne {
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 30px
+}
+
+#scoreTwo {
+    margin-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 30px
+}
+
+#playerOneName {
+    margin-top: 0px;
+    margin-left: 20px;
+   font-size: 25px;
+   font-weight: 800;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+#playerTwoName {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    
+@media (max-width: 480px) {
+    h1 {
+      font-size: 30px;
+    }
+  
+    td,
+    .dice,
+    #button,
+    #scoreOne,
+    #scoreTwo,
+    #playerOneName,
+    #playerTwoName {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .dice {
+      margin: 5px;
+    }
+  
+    #button {
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #playerOneName,
+    #playerTwoName {
+      display: none;
+    }
+  }
+
+  @media (max-width: 480px) {
+    table {
+      width: 70px;
+      height: 110px;
+    }
+  
+
+  }
+  
+    
