@@ -141,20 +141,34 @@ td {
     }
   }
 
-  @media (max-width: 480px) {
-    #playerOneName,
-    #playerTwoName {
-      display: none;
-    }
+  @media (max-width: 570px) {
+   
   }
 
   @media (max-width: 480px) {
+   
     table {
-      width: 70px;
-      height: 110px;
+      width: 100px;
+      height: 120px;
+      display: flex;
+      
     }
-  
+
+    #player1 {
+      margin-left: 100px;
+    }
+
+    #player2 {
+      margin-right: 150px;
+    }
+    
+    #button {
+      margin-left: 200px;
+      margin-top: 200px;
+      position: absolute;
+    }
 
   }
   
+    
     
