@@ -142,15 +142,20 @@ td {
   }
 
   @media (max-width: 570px) {
-   
+  
   }
 
   @media (max-width: 480px) {
-   
+    td {
+      width: 30px;
+      height: 26px;
+    }
+  
     table {
-      width: 100px;
-      height: 120px;
+      width: 180px;
+      height: 180px;
       display: flex;
+      
       
     }
 
@@ -159,7 +164,10 @@ td {
     }
 
     #player2 {
-      margin-right: 150px;
+      position: absolute;
+      
+      margin-top: 275px;
+      margin-left: 100px;
     }
     
     #button {
@@ -168,6 +176,16 @@ td {
       position: absolute;
     }
 
+    #scoreTwo {
+      position: absolute;
+      top: calc(350px + 10%); /* Combine fixed and percentage values */
+      left: calc(245px + 5%);
+  }
+
+  .dices {
+    margin-right: 80px;
+  }
+  
   }
   
     
